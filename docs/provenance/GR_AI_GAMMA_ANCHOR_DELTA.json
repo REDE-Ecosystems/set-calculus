@@ -1,0 +1,132 @@
+{
+  "format": "gr{Ai}Γ-catalog/v1-delta",
+  "entries": [
+    {
+      "id": "gr-ai-gamma:artifact:resolution-space-framework",
+      "type": "artifact",
+      "name": "Resolution Space Framework",
+      "summary": "Primary preserved source artifact defining the resolution research space from which the Anchor and RTP were derived.",
+      "epistemic_status": "observed",
+      "sensitivity": "open",
+      "state": "active",
+      "provenance": [
+        {
+          "source_type": "file",
+          "source": "Resolution_Space_Framework.pdf",
+          "observed_at": "2026-09-22",
+          "capture": "verified",
+          "note": "SHA-256 caf907a04117b7d8d7a874b989ad274f4118b371215bd190d3add446493e41c3"
+        }
+      ]
+    },
+    {
+      "id": "gr-ai-gamma:concept:anchor-foundational-space",
+      "type": "concept",
+      "name": "Anchor Foundational Space",
+      "summary": "Minimal relational substrate for Set Calculus resolution, built from relation, state, transition, admissibility, Klein interface, closure, provenance, and reconciliation.",
+      "epistemic_status": "asserted",
+      "sensitivity": "open",
+      "state": "draft",
+      "provenance": [
+        {
+          "source_type": "conversation",
+          "source": "2026-09-22 Anchor formalization",
+          "observed_at": "2026-09-22",
+          "capture": "generated",
+          "note": "Human-directed formalization derived from the Resolution Space Framework."
+        }
+      ]
+    },
+    {
+      "id": "gr-ai-gamma:concept:resolution-transition-problem",
+      "type": "concept",
+      "name": "Resolution Transition Problem",
+      "summary": "Finite decision problem asking whether an admissible provenance-preserving trajectory crosses the Klein region and terminates in reconciliation.",
+      "epistemic_status": "asserted",
+      "sensitivity": "open",
+      "state": "draft"
+    },
+    {
+      "id": "gr-ai-gamma:discovery:rtp-in-np",
+      "type": "discovery",
+      "name": "Bounded canonical RTP is in NP",
+      "summary": "Under the canonical linear trajectory bound m <= N, RTP certificates have O(N^2) size and admit polynomial-time deterministic verification.",
+      "epistemic_status": "verified",
+      "sensitivity": "open",
+      "state": "active"
+    },
+    {
+      "id": "gr-ai-gamma:concept:100-monkeys-photonic-model-np-complete-solution",
+      "type": "concept",
+      "name": "100 Monkeys Photonic Model NP-Complete Solution",
+      "summary": "Canonical provenance name for the 100 Monkeys research line from which the Resolution Space Framework, Anchor formalization, and RTP development were captured.",
+      "epistemic_status": "asserted",
+      "sensitivity": "open",
+      "state": "active",
+      "claims": [
+        {
+          "text": "The Anchor/RTP development arose from the 100 Monkeys Photonic Model NP-Complete Solution research line.",
+          "status": "asserted",
+          "confidence": 1.0,
+          "provenance": [
+            {
+              "source_type": "person",
+              "source": "Chad Coulter",
+              "observed_at": "2026-09-22",
+              "capture": "quoted",
+              "note": "Project/provenance naming supplied during repository capture."
+            }
+          ]
+        },
+        {
+          "text": "RTP is NP-complete.",
+          "status": "unresolved",
+          "confidence": 0.0,
+          "provenance": [
+            {
+              "source_type": "conversation",
+              "source": "2026-09-22 complexity formalization",
+              "observed_at": "2026-09-22",
+              "capture": "inferred",
+              "note": "NP membership established for bounded canonical RTP; NP-hardness proof not yet supplied."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "source": "gr-ai-gamma:concept:anchor-foundational-space",
+      "predicate": "derived_from",
+      "target": "gr-ai-gamma:artifact:resolution-space-framework",
+      "mode": "asserted",
+      "confidence": 1.0,
+      "evidence": "Anchor primitives and axioms were formalized from the preserved Resolution Space Framework source."
+    },
+    {
+      "source": "gr-ai-gamma:concept:resolution-transition-problem",
+      "predicate": "depends_on",
+      "target": "gr-ai-gamma:concept:anchor-foundational-space",
+      "mode": "asserted",
+      "confidence": 1.0,
+      "evidence": "RTP is defined as a finite computational projection over Anchor structure."
+    },
+    {
+      "source": "gr-ai-gamma:discovery:rtp-in-np",
+      "predicate": "supports",
+      "target": "gr-ai-gamma:concept:resolution-transition-problem",
+      "mode": "observed",
+      "confidence": 1.0,
+      "evidence": "Linear transition bound, O(N^2) certificate, and polynomial verifier establish membership in NP for the canonical bounded RTP."
+    },
+    {
+      "source": "gr-ai-gamma:concept:anchor-foundational-space",
+      "predicate": "derived_from",
+      "target": "gr-ai-gamma:concept:100-monkeys-photonic-model-np-complete-solution",
+      "mode": "asserted",
+      "confidence": 1.0,
+      "evidence": "User-supplied project lineage."
+    }
+  ]
+}

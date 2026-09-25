@@ -1,0 +1,113 @@
+{
+  "format": "gr{Ai}Γ-catalog/v1-delta",
+  "entries": [
+    {
+      "id": "gr-ai-gamma:transform:3sat-to-rtp-sat-reduction",
+      "type": "transform",
+      "name": "3SAT to RTP_SAT Polynomial Reduction",
+      "summary": "Polynomial-time mapping from explicit 3-CNF formulas to RTP_SAT instances preserving YES/NO membership.",
+      "epistemic_status": "verified",
+      "sensitivity": "open",
+      "state": "active",
+      "provenance": [
+        {
+          "source_type": "artifact",
+          "source": "docs/set-calculus-core/RTP_NP_HARDNESS_REDUCTION.md",
+          "observed_at": "2026-09-22",
+          "capture": "verified",
+          "note": "All PO-1 through PO-12 discharged under RTP-ENC-v1."
+        }
+      ],
+      "transform": {
+        "sources": [
+          "3SAT instance phi"
+        ],
+        "operator": "f: construct layered RTP_SAT instance under RTP-ENC-v1",
+        "targets": [
+          "RTP_SAT instance I_phi"
+        ],
+        "preconditions": [
+          "explicit 3-CNF input",
+          "R_SAT_v1 fixed rule schema",
+          "RTP-ENC-v1 canonical encoding"
+        ],
+        "invariants": [
+          "phi satisfiable iff I_phi accepted",
+          "assignment provenance preserved",
+          "local deterministic verification"
+        ],
+        "failure_modes": [
+          "malformed source encoding",
+          "noncanonical RTP encoding"
+        ]
+      }
+    },
+    {
+      "id": "gr-ai-gamma:discovery:rtp-np-complete",
+      "type": "discovery",
+      "name": "Canonical bounded RTP is NP-complete",
+      "summary": "RTP under RTP-ENC-v1 is in NP and NP-hard via 3SAT <=p RTP_SAT.",
+      "epistemic_status": "verified",
+      "sensitivity": "open",
+      "state": "active",
+      "provenance": [
+        {
+          "source_type": "artifact",
+          "source": "docs/set-calculus-core/RTP_CANONICAL_ENCODING_AND_SIZE_PROOFS.md",
+          "observed_at": "2026-09-22",
+          "capture": "verified",
+          "note": "Final encoding and size proof closes PO-1, PO-11, and PO-12 and derives NP-completeness."
+        }
+      ],
+      "claims": [
+        {
+          "text": "The canonical bounded Resolution Transition Problem under RTP-ENC-v1 is NP-complete.",
+          "status": "verified",
+          "confidence": 1,
+          "provenance": [
+            {
+              "source_type": "artifact",
+              "source": "docs/set-calculus-core/RTP_CANONICAL_ENCODING_AND_SIZE_PROOFS.md",
+              "observed_at": "2026-09-22",
+              "capture": "verified"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "source": "gr-ai-gamma:transform:3sat-to-rtp-sat-reduction",
+      "predicate": "supports",
+      "target": "gr-ai-gamma:discovery:rtp-np-complete",
+      "mode": "observed",
+      "confidence": 1,
+      "evidence": "The verified polynomial reduction establishes RTP NP-hardness."
+    },
+    {
+      "source": "gr-ai-gamma:discovery:rtp-in-np",
+      "predicate": "supports",
+      "target": "gr-ai-gamma:discovery:rtp-np-complete",
+      "mode": "observed",
+      "confidence": 1,
+      "evidence": "Membership in NP combined with NP-hardness yields NP-completeness."
+    },
+    {
+      "source": "gr-ai-gamma:discovery:rtp-np-complete",
+      "predicate": "depends_on",
+      "target": "gr-ai-gamma:concept:resolution-transition-problem",
+      "mode": "observed",
+      "confidence": 1,
+      "evidence": "The theorem is scoped to the canonical bounded RTP definition under RTP-ENC-v1."
+    },
+    {
+      "source": "gr-ai-gamma:discovery:rtp-np-complete",
+      "predicate": "related_to",
+      "target": "gr-ai-gamma:concept:100-monkeys-photonic-model-np-complete-solution",
+      "mode": "asserted",
+      "confidence": 1,
+      "evidence": "The theorem arose from the project/research lineage carrying this provenance name."
+    }
+  ]
+}

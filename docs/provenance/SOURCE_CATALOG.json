@@ -10,7 +10,12 @@
     "docs/causal-reality-calculus/SOURCE_LEDGER.md",
     "docs/causal-reality-calculus/PROVENANCE_MATRIX.md",
     "docs/causal-reality-calculus/REVERSE_SOURCE_INDEX.md",
-    "docs/causal-reality-calculus/COVERAGE_AUDIT.md"
+    "docs/causal-reality-calculus/COVERAGE_AUDIT.md",
+    "docs/set-calculus-core/ANCHOR_FOUNDATIONAL_SPACE.md",
+    "docs/set-calculus-core/RESOLUTION_TRANSITION_PROBLEM.md",
+    "docs/provenance/PHOTONIC_MODEL_ANCHOR_LINEAGE.md",
+    "docs/set-calculus-core/artifacts/Resolution_Space_Framework.pdf",
+    "docs/set-calculus-core/RTP_CANONICAL_ENCODING_AND_SIZE_PROOFS.md"
   ],
   "sources": [
     {
@@ -229,6 +234,100 @@
       "capture_status": "FULL",
       "notes": [
         "Canonical working source for primitive candidates and initial Set Calculus invariants."
+      ]
+    },
+    {
+      "id": "gr-ai-gamma:artifact:resolution-space-framework",
+      "name": "Resolution Space Framework",
+      "aliases": [
+        "Resolution_Space_Framework.pdf"
+      ],
+      "kind": "REPOSITORY_ARTIFACT",
+      "locator": "docs/set-calculus-core/artifacts/Resolution_Space_Framework.pdf",
+      "repository_ref": "anchor-foundational-space",
+      "content_sha": "2504ab556390a60750ed879c619868e58c31f35c",
+      "version": "captured-2026-09-22",
+      "author": null,
+      "date": "2026-09-22",
+      "epistemic_status": "OBSERVED",
+      "capture_status": "FULL",
+      "notes": [
+        "Primary preserved source artifact for the Anchor foundational space and RTP derivation.",
+        "SHA-256 caf907a04117b7d8d7a874b989ad274f4118b371215bd190d3add446493e41c3."
+      ]
+    },
+    {
+      "id": "gr-ai-gamma:artifact:anchor-foundational-space",
+      "name": "Anchor Foundational Space",
+      "aliases": [
+        "Anchor v0.1"
+      ],
+      "kind": "REPOSITORY_ARTIFACT",
+      "locator": "docs/set-calculus-core/ANCHOR_FOUNDATIONAL_SPACE.md",
+      "repository_ref": "anchor-foundational-space",
+      "content_sha": "26936bfe5c77e4a61e2f8f68de5ce79cf7ecb132",
+      "version": "0.1",
+      "author": null,
+      "date": "2026-09-22",
+      "epistemic_status": "OBSERVED",
+      "capture_status": "FULL",
+      "notes": [
+        "Formal foundational substrate derived from the Resolution Space Framework under human direction."
+      ]
+    },
+    {
+      "id": "gr-ai-gamma:artifact:resolution-transition-problem",
+      "name": "Resolution Transition Problem",
+      "aliases": [
+        "RTP"
+      ],
+      "kind": "REPOSITORY_ARTIFACT",
+      "locator": "docs/set-calculus-core/RESOLUTION_TRANSITION_PROBLEM.md",
+      "repository_ref": "anchor-foundational-space",
+      "content_sha": "a08918c736afec0db7579cca479444f8d5d540f5",
+      "version": "0.1",
+      "author": null,
+      "date": "2026-09-22",
+      "epistemic_status": "OBSERVED",
+      "capture_status": "FULL",
+      "notes": [
+        "Canonical bounded decision problem over an Anchor projection."
+      ]
+    },
+    {
+      "id": "gr-ai-gamma:artifact:photonic-model-anchor-lineage",
+      "name": "100 Monkeys Photonic Model NP-Complete Solution - Anchor Lineage",
+      "aliases": [],
+      "kind": "REPOSITORY_ARTIFACT",
+      "locator": "docs/provenance/PHOTONIC_MODEL_ANCHOR_LINEAGE.md",
+      "repository_ref": "anchor-foundational-space",
+      "content_sha": "69fe4999a0fe715ad63951e5753a475a47cb38be",
+      "version": null,
+      "author": null,
+      "date": "2026-09-22",
+      "epistemic_status": "OBSERVED",
+      "capture_status": "FULL",
+      "notes": [
+        "Preserves project/research lineage separately from formal NP-completeness theorem status."
+      ]
+    },
+    {
+      "id": "gr-ai-gamma:artifact:rtp-canonical-encoding-size-proofs",
+      "name": "RTP-ENC-v1 Canonical Encoding and Final Size Proofs",
+      "aliases": [
+        "RTP-ENC-v1"
+      ],
+      "kind": "REPOSITORY_ARTIFACT",
+      "locator": "docs/set-calculus-core/RTP_CANONICAL_ENCODING_AND_SIZE_PROOFS.md",
+      "repository_ref": "anchor-foundational-space",
+      "content_sha": "e0eaccc65035192fd312243ec95892c3ef5f7340",
+      "version": "RTP-ENC-v1",
+      "author": null,
+      "date": "2026-09-22",
+      "epistemic_status": "OBSERVED",
+      "capture_status": "FULL",
+      "notes": [
+        "Freezes the canonical RTP encoding, discharges PO-1/PO-11/PO-12, and completes the NP-hardness/NP-completeness proof chain."
       ]
     }
   ],
@@ -502,6 +601,96 @@
       "epistemic_status": "OBSERVED",
       "calibration_status": "PROVENANCE_REQUIRED",
       "unmapped_remainder": false
+    },
+    {
+      "id": "gr-ai-gamma:artifact:resolution-space-framework-passage-resolution-structure",
+      "source_id": "gr-ai-gamma:artifact:resolution-space-framework",
+      "label": "Resolution-space and monadic transition structure",
+      "location": {
+        "section": "6. Resolution-Space Structure / 6.1 The Monadic Three-Pole Structure",
+        "page_start": 3,
+        "page_end": 3,
+        "line_start": null,
+        "line_end": null,
+        "heading": "6. Resolution-Space Structure"
+      },
+      "capture": "PARAPHRASED",
+      "summary": "Defines an n-dimensional resolution lattice framed by positive and negative infinities with resolution at the Klein/origin middle and valid versus inadmissible trajectories.",
+      "epistemic_status": "OBSERVED",
+      "calibration_status": "NOT_APPLICABLE",
+      "unmapped_remainder": false
+    },
+    {
+      "id": "gr-ai-gamma:artifact:anchor-foundational-space-passage-signature",
+      "source_id": "gr-ai-gamma:artifact:anchor-foundational-space",
+      "label": "Anchor canonical signature and axioms",
+      "location": {
+        "section": "2. Canonical signature / 12. Foundational axioms",
+        "page_start": null,
+        "page_end": null,
+        "line_start": null,
+        "line_end": null,
+        "heading": "Canonical signature"
+      },
+      "capture": "STRUCTURAL",
+      "summary": "A = <X,E,Omega+,Omega-,K,Sigma_A,B,P,T,Adm> with monadic unity, relational resolution, explicit reconciliation states, closure, provenance persistence, interface resolution, admissibility, and reconciliation axioms.",
+      "epistemic_status": "OBSERVED",
+      "calibration_status": "NOT_APPLICABLE",
+      "unmapped_remainder": false
+    },
+    {
+      "id": "gr-ai-gamma:artifact:resolution-transition-problem-passage-np-membership",
+      "source_id": "gr-ai-gamma:artifact:resolution-transition-problem",
+      "label": "Canonical bounded RTP certificate and verifier",
+      "location": {
+        "section": "3. Certificate / 6. Verifier complexity",
+        "page_start": null,
+        "page_end": null,
+        "line_start": null,
+        "line_end": null,
+        "heading": "Verifier complexity"
+      },
+      "capture": "STRUCTURAL",
+      "summary": "RTP uses a linear transition bound m <= N, O(N^2) certificate size, and polynomial deterministic verification, establishing bounded canonical RTP in NP.",
+      "epistemic_status": "OBSERVED",
+      "calibration_status": "CONDITIONAL_THEOREM",
+      "unmapped_remainder": false
+    },
+    {
+      "id": "gr-ai-gamma:artifact:photonic-model-anchor-lineage-passage-project-name",
+      "source_id": "gr-ai-gamma:artifact:photonic-model-anchor-lineage",
+      "label": "100 Monkeys project provenance name and theorem boundary",
+      "location": {
+        "section": "Canonical project provenance name / Epistemic separation",
+        "page_start": null,
+        "page_end": null,
+        "line_start": null,
+        "line_end": null,
+        "heading": "Canonical project provenance name"
+      },
+      "capture": "STRUCTURAL",
+      "summary": "Preserves the provenance name '100 Monkeys Photonic Model NP-Complete Solution' while recording RTP in NP as established and NP-hardness / NP-completeness as open.",
+      "epistemic_status": "OBSERVED",
+      "calibration_status": "PROVENANCE_REQUIRED",
+      "unmapped_remainder": false
+    },
+    {
+      "id": "gr-ai-gamma:artifact:rtp-canonical-encoding-passage-np-complete",
+      "source_id": "gr-ai-gamma:artifact:rtp-canonical-encoding-size-proofs",
+      "label": "Completed RTP NP-completeness theorem",
+      "location": {
+        "section": "19. NP-hardness theorem / 20. NP-completeness theorem",
+        "page_start": null,
+        "page_end": null,
+        "line_start": null,
+        "line_end": null,
+        "heading": "NP-completeness theorem"
+      },
+      "capture": "STRUCTURAL",
+      "summary": "All PO-1 through PO-12 are discharged; 3SAT <=p RTP_SAT, RTP is NP-hard, and with RTP in NP the canonical bounded RTP under RTP-ENC-v1 is NP-complete.",
+      "epistemic_status": "OBSERVED",
+      "calibration_status": "FORMAL_CLOSED",
+      "unmapped_remainder": false
     }
   ],
   "objects": [
@@ -648,6 +837,91 @@
       "repo_path": "PROVENANCE.md",
       "section": "Provenance principle",
       "notes": []
+    },
+    {
+      "id": "gr-ai-gamma:concept:anchor-foundational-space",
+      "name": "Anchor Foundational Space",
+      "calculus": "SET_CALCULUS",
+      "kind": "CONSTRUCT",
+      "epistemic_status": "ASSERTED",
+      "calibration_status": "NOT_APPLICABLE",
+      "definition": "Minimal relational substrate for Set Calculus resolution: A = <X,E,Omega+,Omega-,K,Sigma_A,B,P,T,Adm>.",
+      "repo_path": "docs/set-calculus-core/ANCHOR_FOUNDATIONAL_SPACE.md",
+      "section": "Canonical signature",
+      "notes": [
+        "Anchor reconciliation states are distinct from Set Calculus public resolution evidence states."
+      ]
+    },
+    {
+      "id": "gr-ai-gamma:concept:resolution-transition-problem",
+      "name": "Resolution Transition Problem",
+      "calculus": "SET_CALCULUS",
+      "kind": "DEFINITION",
+      "epistemic_status": "ASSERTED",
+      "calibration_status": "DOMAIN_SCOPED",
+      "definition": "Finite decision problem asking whether an admissible provenance-preserving trajectory crosses the Klein transition region and terminates in reconciliation.",
+      "repo_path": "docs/set-calculus-core/RESOLUTION_TRANSITION_PROBLEM.md",
+      "section": "Formal language",
+      "notes": [
+        "Canonical definition includes a linear trajectory bound m <= N."
+      ]
+    },
+    {
+      "id": "gr-ai-gamma:discovery:rtp-in-np",
+      "name": "Bounded canonical RTP is in NP",
+      "calculus": "SET_CALCULUS",
+      "kind": "THEOREM",
+      "epistemic_status": "VERIFIED",
+      "calibration_status": "CONDITIONAL_THEOREM",
+      "definition": "Under the canonical linear transition bound and polynomial primitive-rule checks, RTP admits O(N^2) certificates with polynomial deterministic verification.",
+      "repo_path": "docs/set-calculus-core/RESOLUTION_TRANSITION_PROBLEM.md",
+      "section": "Verifier complexity",
+      "notes": [
+        "Membership in NP is one component of the completed NP-completeness theorem; see gr-ai-gamma:discovery:rtp-np-complete."
+      ]
+    },
+    {
+      "id": "gr-ai-gamma:concept:100-monkeys-photonic-model-np-complete-solution",
+      "name": "100 Monkeys Photonic Model NP-Complete Solution",
+      "calculus": "CROSS_CUTTING",
+      "kind": "CONSTRUCT",
+      "epistemic_status": "ASSERTED",
+      "calibration_status": "PROVENANCE_REQUIRED",
+      "definition": "Canonical provenance name for the 100 Monkeys research line from which the Resolution Space Framework, Anchor, and RTP development were captured.",
+      "repo_path": "docs/provenance/PHOTONIC_MODEL_ANCHOR_LINEAGE.md",
+      "section": "Canonical project provenance name",
+      "notes": [
+        "Project provenance name predates completion of the theorem.",
+        "The canonical bounded RTP under RTP-ENC-v1 is now formally proved NP-complete in repository artifacts."
+      ]
+    },
+    {
+      "id": "gr-ai-gamma:transform:3sat-to-rtp-sat-reduction",
+      "name": "3SAT to RTP_SAT Polynomial Reduction",
+      "calculus": "SET_CALCULUS",
+      "kind": "TRANSFORM",
+      "epistemic_status": "VERIFIED",
+      "calibration_status": "FORMAL_CLOSED",
+      "definition": "Polynomial-time mapping f from explicit 3-CNF instances to RTP_SAT instances such that phi is satisfiable iff f(phi) is accepted.",
+      "repo_path": "docs/set-calculus-core/RTP_NP_HARDNESS_REDUCTION.md",
+      "section": "Theorem",
+      "notes": [
+        "Uses fixed seven-schema R_SAT, RTP-ENC-v1, and provenance-preserving local verification."
+      ]
+    },
+    {
+      "id": "gr-ai-gamma:discovery:rtp-np-complete",
+      "name": "Canonical bounded RTP is NP-complete",
+      "calculus": "SET_CALCULUS",
+      "kind": "THEOREM",
+      "epistemic_status": "VERIFIED",
+      "calibration_status": "FORMAL_CLOSED",
+      "definition": "Under RTP-ENC-v1, RTP is in NP and is NP-hard via the polynomial-time many-one reduction 3SAT <=p RTP_SAT; therefore RTP is NP-complete.",
+      "repo_path": "docs/set-calculus-core/RTP_CANONICAL_ENCODING_AND_SIZE_PROOFS.md",
+      "section": "NP-completeness theorem",
+      "notes": [
+        "Scope is the canonical bounded RTP problem under RTP-ENC-v1."
+      ]
     }
   ],
   "mappings": [
@@ -805,6 +1079,78 @@
       "status": "ACTIVE",
       "confidence": 1,
       "rationale": "Repository provenance policy states the principle verbatim.",
+      "derived_from_mapping_ids": []
+    },
+    {
+      "id": "map:resolution-space-framework-to-anchor",
+      "passage_id": "gr-ai-gamma:artifact:resolution-space-framework-passage-resolution-structure",
+      "object_id": "gr-ai-gamma:concept:anchor-foundational-space",
+      "interpretation_level": "GENERALIZED",
+      "mapping_role": "PRIMARY",
+      "calibration_status": "NOT_APPLICABLE",
+      "status": "ACTIVE",
+      "confidence": 0.98,
+      "rationale": "The Anchor formalizes the source framework's relational resolution space, Klein transition, closure, state, and provenance structure into a minimal substrate.",
+      "derived_from_mapping_ids": []
+    },
+    {
+      "id": "map:anchor-spec-to-anchor",
+      "passage_id": "gr-ai-gamma:artifact:anchor-foundational-space-passage-signature",
+      "object_id": "gr-ai-gamma:concept:anchor-foundational-space",
+      "interpretation_level": "DIRECT",
+      "mapping_role": "PRIMARY",
+      "calibration_status": "NOT_APPLICABLE",
+      "status": "ACTIVE",
+      "confidence": 1,
+      "rationale": "The repository artifact directly defines the Anchor signature and foundational axioms.",
+      "derived_from_mapping_ids": []
+    },
+    {
+      "id": "map:rtp-spec-to-rtp",
+      "passage_id": "gr-ai-gamma:artifact:resolution-transition-problem-passage-np-membership",
+      "object_id": "gr-ai-gamma:concept:resolution-transition-problem",
+      "interpretation_level": "DIRECT",
+      "mapping_role": "PRIMARY",
+      "calibration_status": "DOMAIN_SCOPED",
+      "status": "ACTIVE",
+      "confidence": 1,
+      "rationale": "The RTP artifact directly defines the finite bounded decision language and verifier.",
+      "derived_from_mapping_ids": []
+    },
+    {
+      "id": "map:rtp-spec-to-np-membership",
+      "passage_id": "gr-ai-gamma:artifact:resolution-transition-problem-passage-np-membership",
+      "object_id": "gr-ai-gamma:discovery:rtp-in-np",
+      "interpretation_level": "DIRECT",
+      "mapping_role": "PRIMARY",
+      "calibration_status": "CONDITIONAL_THEOREM",
+      "status": "ACTIVE",
+      "confidence": 1,
+      "rationale": "The linear certificate bound and polynomial verifier directly establish membership in NP for the bounded canonical RTP definition.",
+      "derived_from_mapping_ids": []
+    },
+    {
+      "id": "map:photonic-lineage-to-project-provenance",
+      "passage_id": "gr-ai-gamma:artifact:photonic-model-anchor-lineage-passage-project-name",
+      "object_id": "gr-ai-gamma:concept:100-monkeys-photonic-model-np-complete-solution",
+      "interpretation_level": "DIRECT",
+      "mapping_role": "PRIMARY",
+      "calibration_status": "PROVENANCE_REQUIRED",
+      "status": "ACTIVE",
+      "confidence": 1,
+      "rationale": "The lineage record directly preserves the project provenance name and separates it from unresolved NP-completeness theorem status.",
+      "derived_from_mapping_ids": []
+    },
+    {
+      "id": "map:rtp-encoding-proof-to-np-completeness",
+      "passage_id": "gr-ai-gamma:artifact:rtp-canonical-encoding-passage-np-complete",
+      "object_id": "gr-ai-gamma:discovery:rtp-np-complete",
+      "interpretation_level": "DIRECT",
+      "mapping_role": "PRIMARY",
+      "calibration_status": "FORMAL_CLOSED",
+      "status": "ACTIVE",
+      "confidence": 1,
+      "rationale": "The proof artifact states the completed NP-hardness and NP-completeness theorem after discharging all listed obligations.",
       "derived_from_mapping_ids": []
     }
   ],
